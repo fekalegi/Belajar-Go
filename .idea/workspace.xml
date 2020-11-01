@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1812a46e-6192-49f3-a85b-f8fe12c06669" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1jdxWXpTpxzrtp9T42Ok9ywDRBJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build GoWebApiSQL" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoWebApiSQL" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="GoWebApiSQL" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build GoWebApiSQL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1812a46e-6192-49f3-a85b-f8fe12c06669" name="Default Changelist" comment="" />
+      <created>1604147801869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604147801869</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="244" y="25" key="#Plugins" timestamp="1604226183027">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state x="244" y="25" key="#Plugins/0.0.1304.768@0.0.1304.768" timestamp="1604226183027" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604167991384">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604167991384" />
+    <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604167547893">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604167547893" />
+    <state width="1261" height="201" key="GridCell.Tab.0.bottom" timestamp="1604234448895">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="201" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1604234448895" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604170246126" />
+    <state width="1261" height="201" key="GridCell.Tab.0.center" timestamp="1604234448895">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="201" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1604234448895" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604170246126" />
+    <state width="1261" height="201" key="GridCell.Tab.0.left" timestamp="1604234448895">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="201" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1604234448895" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604170246125" />
+    <state width="1261" height="201" key="GridCell.Tab.0.right" timestamp="1604234448895">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="201" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1604234448895" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604170246126" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1604168325061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1604168325061" />
+    <state x="153" y="29" key="SettingsEditor" timestamp="1604226179982">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state x="153" y="29" key="SettingsEditor/0.0.1304.768@0.0.1304.768" timestamp="1604226179982" />
+    <state x="542" y="271" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604226440570">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state x="542" y="271" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1304.768@0.0.1304.768" timestamp="1604226440570" />
+  </component>
+</project>
