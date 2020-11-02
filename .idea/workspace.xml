@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1812a46e-6192-49f3-a85b-f8fe12c06669" name="Default Changelist" comment="add ADDTweet not finished, contenttext and contentattachment nil">
+    <list default="true" id="1812a46e-6192-49f3-a85b-f8fe12c06669" name="Default Changelist" comment="fixed contenttext and attachment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweets.db" beforeDir="false" afterPath="$PROJECT_DIR$/tweets.db" afterDir="false" />
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604302916744</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed contenttext and attachment">
+      <created>1604346907049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604346907049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add route and listenserver to get" />
     <MESSAGE value="add ADDTweet not finished, contenttext and contentattachment nil" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ADDTweet not finished, contenttext and contentattachment nil" />
+    <MESSAGE value="fixed contenttext and attachment" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed contenttext and attachment" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -137,25 +145,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604167547893" />
-    <state width="1261" height="201" key="GridCell.Tab.0.bottom" timestamp="1604302946410">
+    <state width="630" height="201" key="GridCell.Tab.0.bottom" timestamp="1604354006807">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="201" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1604302946410" />
+    <state width="630" height="201" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1604354006807" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604170246126" />
-    <state width="1261" height="201" key="GridCell.Tab.0.center" timestamp="1604302946410">
+    <state width="630" height="201" key="GridCell.Tab.0.center" timestamp="1604354006807">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="201" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1604302946410" />
+    <state width="630" height="201" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1604354006807" />
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604170246126" />
-    <state width="1261" height="201" key="GridCell.Tab.0.left" timestamp="1604302946410">
+    <state width="630" height="201" key="GridCell.Tab.0.left" timestamp="1604354006807">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="201" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1604302946410" />
+    <state width="630" height="201" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1604354006807" />
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604170246125" />
-    <state width="1261" height="201" key="GridCell.Tab.0.right" timestamp="1604302946410">
+    <state width="630" height="201" key="GridCell.Tab.0.right" timestamp="1604354006807">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="201" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1604302946410" />
+    <state width="630" height="201" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1604354006807" />
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604170246126" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1604168325061">
       <screen x="0" y="0" width="1366" height="728" />
@@ -165,10 +173,10 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="153" y="29" key="SettingsEditor/0.0.1304.768@0.0.1304.768" timestamp="1604226179982" />
-    <state x="244" y="117" key="Vcs.Push.Dialog.v2" timestamp="1604302922481">
+    <state x="244" y="117" key="Vcs.Push.Dialog.v2" timestamp="1604346912758">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604302922481" />
+    <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604346912758" />
     <state x="542" y="271" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604226440570">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
