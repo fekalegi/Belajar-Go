@@ -51,13 +51,29 @@
       <Position>4</Position>
       <DataType>text|0s</DataType>
     </column>
-    <index id="17" parent="7" name="sqlite_autoindex_tweets_1">
+    <column id="17" parent="7" name="created_at">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="18" parent="7" name="updated_at">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="19" parent="7" name="deleted_at">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="20" parent="7" name="sqlite_autoindex_tweets_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>tweet_id</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <key id="18" parent="7">
+    <index id="21" parent="7" name="idx_tweets_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="22" parent="7">
       <ColNames>tweet_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>sqlite_autoindex_tweets_1</UnderlyingIndexName>
