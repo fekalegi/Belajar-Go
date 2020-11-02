@@ -19,9 +19,9 @@ var tweets []Tweet
 
 type Tweet struct {
 	TweetID           uuid.UUID `gorm:"type:uuid;primary_key;not null; json:"Tweetid"`
-	Username          string    `sql:"type:json" json:"Username"`
-	ContentText       string    `sql:"type:json" json:"Contenttext"`
-	ContentAttachment string    `sql:"type:json" json:"Contentattachment"`
+	Username          string    `sql:"type:json" json:"username"`
+	ContentText       string    `sql:"type:json" json:"content_text"`
+	ContentAttachment string    `sql:"type:json" json:"content_attachment"`
 	CreatedAt         time.Time
 	UpdatedAt         time.Time
 	DeletedAt         sql.NullTime `gorm:"index"`
