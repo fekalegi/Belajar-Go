@@ -1,33 +1,24 @@
 package main
 
 import (
-	"database/sql"
 	"encoding/json"
 	"github.com/gorilla/mux"
 	uuid "github.com/satori/go.uuid"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"log"
+	"GoWebApiSQL/tweet"
 	"net/http"
-	"time"
 )
 
 var db, err = gorm.Open(sqlite.Open("tweets.db"), &gorm.Config{})
 
-var tweets []Tweet
+var tweets []Twit
 
-type Tweet struct {
-	TweetID           uuid.UUID `gorm:"type:uuid;primary_key;not null; json:"tweet_id"`
-	Username          string    `sql:"type:json" json:"username"`
-	ContentText       string    `sql:"type:json" json:"content_text"`
-	ContentAttachment string    `sql:"type:json" json:"content_attachment"`
-	CreatedAt         time.Time
-	UpdatedAt         time.Time
-	DeletedAt         sql.NullTime `gorm:"index"`
-}
+type Twit tweet.Tweet
 
 func Migrate() {
-	db.AutoMigrate(&Tweet{})
+	db.AutoMigrate(&Twit{})
 }
 
 func connectDB() *gorm.DB {
@@ -39,7 +30,7 @@ func connectDB() *gorm.DB {
 
 func addTweet(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	var tweet Tweet
+	var tweet Twit
 	_ = json.NewDecoder(r.Body).Decode(&tweet)
 	tweet.TweetID = uuid.NewV4()
 	err := db.Create(&tweet)
@@ -61,7 +52,7 @@ func getAllTweet(w http.ResponseWriter, r *http.Request) {
 func getTweet(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	params := mux.Vars(r)
-	var tweet Tweet
+	var tweet Twit
 	tweet.TweetID, _ = uuid.FromString(params["tweet_id"])
 	result := map[string]interface{}{}
 	db.Table("tweets").Where("tweet_id = ?", tweet.TweetID).Find(&result)
@@ -71,7 +62,7 @@ func getTweet(w http.ResponseWriter, r *http.Request) {
 func delTweet(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	params := mux.Vars(r)
-	var tweet Tweet
+	var tweet Twit
 	tweet.TweetID, _ = uuid.FromString(params["tweet_id"])
 	err := db.Table("tweets").Delete("tweet_id ", tweet)
 	if err.Error != nil {

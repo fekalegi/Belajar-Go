@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1812a46e-6192-49f3-a85b-f8fe12c06669" name="Default Changelist" comment="adding del and specified get by id function" />
+    <list default="true" id="1812a46e-6192-49f3-a85b-f8fe12c06669" name="Default Changelist" comment="adding del and specified get by id function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
     <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-say-hello" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -149,6 +151,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604167547893" />
+    <state x="432" y="139" key="FileChooserDialogImpl" timestamp="1611255407921">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state x="432" y="139" key="FileChooserDialogImpl/0.0.1304.768@0.0.1304.768" timestamp="1611255407921" />
     <state width="1261" height="201" key="GridCell.Tab.0.bottom" timestamp="1604354431883">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
