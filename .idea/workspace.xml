@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1812a46e-6192-49f3-a85b-f8fe12c06669" name="Default Changelist" comment="adding del and specified get by id function">
+      <change afterPath="$PROJECT_DIR$/addTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connectDB.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbSet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getAllTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrate.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +62,13 @@
     <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-say-hello" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learn\BackEnd\GoWebApiSQL" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="go build GoWebApiSQL" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
